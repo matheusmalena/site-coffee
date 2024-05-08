@@ -1,13 +1,12 @@
 <template>
   <section class="cabecalho d-flex justify=content-between align-items-center">
-    <div class="w-25">
-      <img
+    <div class="w-50">
+      <img class="logo-site"
         src="https://divinoparis.com.br/wp-content/uploads/2023/08/SITE-37.png"
         alt=""
       />
-      <h1>Coffee</h1>
     </div>
-    <div class="w-75 d-flex align-items-center gap-3 justify-content-end">
+    <div class="w-50 mr-5 d-flex align-items-center gap-3 justify-content-end">
       <div class="sidebar">
         <a href="" class="links-menu">Inicio</a>
         <a href="" class="links-menu">Sobre</a>
@@ -52,13 +51,12 @@ export default {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   padding: 18px;
-  margin-top: -25px;
   padding-right: 50px;
 }
 
 img {
-  width: 8%;
-  height: 5%;
+  width: 180px;
+  height: auto;
   color: #1b1b1d;
 }
 
@@ -91,9 +89,14 @@ img {
   cursor: pointer;
 }
 
+.menu-btn{
+  background: none;
+}
+
 .menu-icon {
   display: none;
   border: none;
+  color: black;
 }
 
 .sidebar {
@@ -111,6 +114,22 @@ img {
 
   .sidebar {
     display: none;
+  }
+
+  .logo-site{
+    width: 60%;
+    height: auto;
+  }
+
+  .button-buy{
+    font-size: 10px;
+    width: 80px;
+    padding: 6px;
+  }
+
+  .personalize-i{
+    font-size: 18px;
+    padding: 5px;
   }
 }
 </style>

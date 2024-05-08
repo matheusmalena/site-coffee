@@ -1,17 +1,18 @@
 <template>
-  <section class="d-flex gap-5">
-    <div class="text-header w-50 p-3">
-      <h1>Divina Delicious Coffee</h1>
-      <img class="selo" src="/public/assets/selo.png" alt="" />
+  <section class="d-flex justi justify-content-around align-items-center pb-5">
+    <div class="text-header w-25 p-3 d-flex flex-column align-items-start gap-4">
+      <h1>Divina Delicious Coffee <img class="selo" src="https://i.postimg.cc/tJC2RSgP/selo.png" alt="" /></h1>
       <p>
         A drink from the 'My Divina' bootle brews range OR grap one of our delicious
         coffee´s
       </p>
+      <div class="d-flex row">
       <button class="btn-download">DONWLOAD APP</button>
       <button class="btn-buy">SHOP COFFEE</button>
     </div>
-    <div>
-      <img class="img-copo" src="/public/assets/copo.png" alt="" />
+    </div>
+    <div class="w-40 d-flex align-items-center justify-content-center ">
+      <img class="img-copo" src="https://i.postimg.cc/9MQP540F/copo.png" alt="" />
     </div>
   </section>
 </template>
@@ -26,10 +27,14 @@ export default {
 <style scoped>
 h1 {
   font-family: var(--font-alkalami);
-  font-size: 80px;
+  font-size: 120px;
   font-weight: 800;
   color: var(--color-primary);
   margin: 0%;
+}
+
+.text-header{
+  text-align: left;
 }
 
 p {
@@ -38,19 +43,20 @@ p {
   font-size: 14px;
 }
 
-section{
+section {
   background-color: var(--bg-secudary);
 }
 
 button {
+  width: 200px;
   font-family: var(--poppins);
   font-weight: 600;
   font-size: 14px;
 }
 
 .img-copo {
-  width: 50vh;
-  height: 60vh;
+  width: 100%;
+  height: 100%;
 }
 
 .selo {
@@ -74,5 +80,31 @@ button {
   padding: 15px;
   cursor: pointer;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+  .img-copo {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .img-copo {
+    width: 100%;
+    height: auto;
+  }
 }
 </style>

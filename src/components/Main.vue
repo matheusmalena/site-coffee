@@ -1,17 +1,20 @@
 <template>
   <main>
     <ExplorerProduts />
+    <Favorite/>
   </main>
 </template>
 
 <script>
 import ExplorerProduts from "@/components/ExplorerProduts.vue";
+import Favorite from './Favorite.vue';
 
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: "Main",
   components: {
     ExplorerProduts,
+    Favorite,
   },
 };
 </script>
