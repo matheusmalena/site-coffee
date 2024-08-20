@@ -2,11 +2,11 @@
   <main class="d-flex flex-column mt-5">
     <div class="d-flex flex-row w-100 justify-content-between ">
       <div class="copo-metade d-flex justify-content-start  "> 
-        <img
+        <!-- <img
           class=""
-          src="https://i.postimg.cc/N0p8Btgc/Captura-de-tela-2024-05-08-100054-removebg-preview-removebg-preview.png"
+          src="../../public/assets/copo.png"
           alt=""
-        />
+        /> -->
       </div>
       <div class="d-flex flex-column first-card align-items-center justify-content-center ">
         <h1>Explore Our Alowishus</h1>
@@ -53,6 +53,7 @@ export default {
 h1 {
   font-family: var(--font-alkalami);
   font-size: 40px;
+  font-weight: 800;
 }
 
 main {
@@ -70,11 +71,12 @@ h2 {
   text-align: left;
   width: 100%;
   padding: 1rem;
+  font-weight: 600;
 }
 
 .icon {
   font-weight: 600 !important;
-  font-size: 4rem !important;
+  font-size: 5rem !important;
   color: var(--cinza) !important;
   padding: 8px;
   margin-bottom: 10px;
@@ -92,10 +94,10 @@ h2 {
 }
 
 .card {
-  width: 25%;
+  width: 20%;
   border: 1px solid black;
   border-radius: 20px !important;
-  height: 80%;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -1,7 +1,7 @@
 <template>
     <section class="d-flex flex-md-row w-100 justify-content-center">
     <div class="w-50">
-        <img src="https://i.postimg.cc/Sx9GjbtM/3-copos-removebg-preview.png" alt="">
+        <img src="../../public/assets/3-copos.jpg" alt="">
     </div>
     <div class="d-flex flex-column w-25 align-items-center favorite-text">
        <h2>Order Your Favorite Coffee</h2>

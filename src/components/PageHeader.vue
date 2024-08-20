@@ -1,8 +1,8 @@
 <template>
   <section class="cabecalho d-flex justify=content-between align-items-center">
-    <div class="w-50">
+    <div class="div-logo">
       <img class="logo-site"
-        src="https://divinoparis.com.br/wp-content/uploads/2023/08/SITE-37.png"
+        src="../../public/assets/logo.png"
         alt=""
       />
     </div>
@@ -43,6 +43,16 @@ export default {
 <style scoped>
 * {
   text-decoration: none;
+}
+
+.div-logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.div-logo img{
+width: 150px;
 }
 
 .cabecalho {
@@ -131,5 +141,9 @@ img {
     font-size: 18px;
     padding: 5px;
   }
+
+  .div-logo img{
+width: 100px;
+}
 }
 </style>

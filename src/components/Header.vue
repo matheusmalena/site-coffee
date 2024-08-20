@@ -1,7 +1,7 @@
 <template>
-  <section class="d-flex justi justify-content-around align-items-center pb-5">
+  <section class="d-flex justify-content-around align-items-center padding-top">
     <div class="text-header w-25 p-3 d-flex flex-column align-items-start gap-4">
-      <h1>Divina Delicious Coffee <img class="selo" src="https://i.postimg.cc/tJC2RSgP/selo.png" alt="" /></h1>
+      <h1>Divina Delicious Coffee <img class="selo" src="../../public/assets/selo.png" alt="" /></h1>
       <p>
         A drink from the 'My Divina' bootle brews range OR grap one of our delicious
         coffee´s
@@ -12,7 +12,7 @@
     </div>
     </div>
     <div class="w-40 d-flex align-items-center justify-content-center ">
-      <img class="img-copo" src="https://i.postimg.cc/9MQP540F/copo.png" alt="" />
+      <img class="img-copo" src="../../public/assets/copo.png" alt="" />
     </div>
   </section>
 </template>
@@ -35,6 +35,10 @@ h1 {
 
 .text-header{
   text-align: left;
+}
+
+.padding-top {
+  padding: 8rem !important;
 }
 
 p {
